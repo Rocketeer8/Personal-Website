@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    /*background-color: #0c709548; /* Example background color */
+    display: flex;
+    justify-content: center; /* Optional: Center content horizontally */
+    align-items: center; /* Optional: Center content vertically */
+    position: relative;
+  }
+
+  .header-content {
+    top: 0;
+    position: relative;
+
+    width: 120vh;
+    height: 70vh; /* 100% of the viewport height */
+    /*background-color: #073b4e; /* Example background color*/
+
+    display: flex;
+    flex-direction: column; /* Arrange content in a column (vertical) */
+    justify-content: center;
+    align-items: center;
+    /*width: 100%; /* Optional: adjust based on your layout */
+  }
+  
+  .title {
+    font-size: 3.2rem;
+
+    color: rgba(255, 255, 255, 0.865);
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in forwards;
+    animation-delay: 0.5s; /* Delay before the animation starts */
+  }
+
+  .sub-text {
+    font-size: 1.8rem;
+
+    opacity: 0;
+    animation: fadeIn 0.8s ease-in forwards;
+    animation-delay: 1.5s; /* Delay before the animation starts */
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+
+  

@@ -1,0 +1,71 @@
+/* Updated CSS file */
+#projects-section {
+  background-color: #0628356d;
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0) 0%, #01121f69 10%);
+  margin-top: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects-section a:hover {
+  text-decoration: underline;
+}
+
+.projects-content a {
+  color: rgba(255, 255, 255, 0.779);
+  text-decoration: none; /* no default underline for a links */
+}
+
+.projects-content {
+  max-width: 60%;
+  display: flex; /* Makes the elements flexible for layout */
+  flex-direction: column; /* Stacks elements vertically in a single column */
+  align-items: flex-start; /* Aligns content to the left */
+}
+
+.projects-content a:nth-child(odd) {
+  background-color: #30324f35;
+  transform: translateX(-2rem); /* Move odd positioned projects to the left */
+}
+
+.projects-content a:nth-child(even) {
+  background-color: #14202d4d;
+  transform: translateX(2rem); /* Move even positioned projects to the right */
+}
+
+.title-card {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.and-more {
+  width: 100%;
+  background-color: #68a4e91d;
+  background: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, #3c6eeb1d 30%, #68a4e91d 70%, rgba(255, 0, 0, 0) 100%);
+  color: rgba(231, 231, 231, 0.792);
+  font-size: 32px;
+  margin-top: 3rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.and-more a {
+  color: rgba(255, 255, 255, 0.779);
+  text-decoration: underline;
+}
+
+.and-more a:hover {
+  color: #535bf2;
+}
